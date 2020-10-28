@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/fecha_1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Fecha"
+        android:textColor="#3F51B5"
+        android:textColorLink="#3F51B5"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/record_1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Recordatorio"
+        android:textColor="#009688"
+        android:textSize="24sp"/>
+
+</LinearLayout>
